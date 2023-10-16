@@ -699,6 +699,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/AEXML.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = net.tadija.AEXML;
 				PRODUCT_NAME = AEXML;
 				SDKROOT = macosx;
@@ -723,6 +724,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/AEXML.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = net.tadija.AEXML;
 				PRODUCT_NAME = AEXML;
 				SDKROOT = macosx;
